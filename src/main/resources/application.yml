@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: aws-ses-service
+
+aws:
+  region: ${AWS_REGION:eu-central-1}
+  access-key-id: dummy
+  secret-access-key: dummy
+
+
